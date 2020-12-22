@@ -11,6 +11,7 @@ Hiermee word zookeeper en de server aan het werk gezet.
 Binnen kafka is er een topic aangemaakt voor sentences. Die bekijkt of er zinnen worden geproduceerd.
 De producer van de applicatie, verzend/streamt data naar de topic
 Deze taak wordt aan het werk gezet via maven met:
+
 mvn package && mvn exec:java -Dexec.mainClass="nl.hu.bdsd.BDSDKafkaProducerRunner"
 
 De consumer is hierop ge-subscribed en al het gestreamde data wordt hierdoor opgepakt.
