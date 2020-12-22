@@ -2,7 +2,9 @@ De werking van de applicatie werkt door middel van apache kafka.
 Zoals in de foto (screenshot) te zien is, worden de inkomende teksten van de producer, behandeld door de consumer.
 
 Om dit te laten werken worden er 2 processen gestart:
+
  -zookeeper-server-start.bat c:\kafka\config\zookeeper.properties
+ 
  -kafka-server-start.bat c:\kafka\config\server.properties
 
 Hiermee word zookeeper en de server aan het werk gezet.
